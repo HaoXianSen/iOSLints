@@ -1,0 +1,6 @@
+framework module Pods_PreCommitHooks_PreCommitHooksUITests {
+  umbrella header "Pods-PreCommitHooks-PreCommitHooksUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

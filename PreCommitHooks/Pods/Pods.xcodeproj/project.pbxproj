@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0CD1E16F9C49957083F7CE9A1BBA56EB /* Pods-PreCommitHooks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE0E5224579B2A730C2435655705EB /* Pods-PreCommitHooks-dummy.m */; };
+		11D809E662130B4FC35277CE347D6F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		19C36FFA67FA40203952231358E110EB /* Pods-PreCommitHooks-PreCommitHooksUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1526F04ED4D3670554D658A56C576F /* Pods-PreCommitHooks-PreCommitHooksUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C1EA7D91BEDD4DB813E7312DAB8F333 /* Pods-PreCommitHooksTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF62280F8E0EFCB9D4CE82A4A6F90B66 /* Pods-PreCommitHooksTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47012D7B885E825FB298AC8F533EB2DB /* Pods-PreCommitHooks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B307BC7CF83968B9D0723FE9EE25F1 /* Pods-PreCommitHooks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C732B2D7708FCFD299E09B7847FC47D /* Pods-PreCommitHooksTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDBA13D091AEDB0BA1F25DD2AE7097 /* Pods-PreCommitHooksTests-dummy.m */; };
+		783F2450116B45BCCA5353A6349016CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DCBFB4034365399C11F04BCCC1120A70 /* Pods-PreCommitHooks-PreCommitHooksUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB15AA0A0BF834C0F32ABFDFD850B25 /* Pods-PreCommitHooks-PreCommitHooksUITests-dummy.m */; };
+		FEC1C732AF378C8199FB8D18B3636A2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24A8627CF1979BAB4242A78BCE9256E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		2BE1CAD544A5507F4C8701E4A356EBDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		A10AD3B2699598F2B7D991D91F6425F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F3219093BDA969A7C5911550E93A3C9;
+			remoteInfo = "Pods-PreCommitHooks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CED5B3A4E4085E61134F7BEC3B7EA9F /* Pods-PreCommitHooks-PreCommitHooksUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PreCommitHooks-PreCommitHooksUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		147833A0E8188C7395D01490DA32A908 /* Pods-PreCommitHooksTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PreCommitHooksTests"; path = Pods_PreCommitHooksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		148ED3D9A10EE5FE00DA9B7AC0C3711F /* Pods-PreCommitHooksTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreCommitHooksTests-Info.plist"; sourceTree = "<group>"; };
+		3B841FFAB2A9FD3781CD3353E62CBB70 /* Pods-PreCommitHooks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PreCommitHooks.modulemap"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		4780EFA54141DBE6063FD3CDB2245529 /* Pods-PreCommitHooks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreCommitHooks-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D70D00203B07248E5DA7012F904ED25 /* Pods-PreCommitHooks-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PreCommitHooks-acknowledgements.markdown"; sourceTree = "<group>"; };
+		581AD4153E1ACE77AE7D2B986CAE7662 /* Pods-PreCommitHooksTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreCommitHooksTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		690DAC35E57F8FA4A61903A5ED202925 /* Pods-PreCommitHooks-PreCommitHooksUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreCommitHooks-PreCommitHooksUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AE64455BB405FE44C0D0B7BF18084F9 /* Pods-PreCommitHooks */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PreCommitHooks"; path = Pods_PreCommitHooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF6D20F336F4594EA6780AE4834065F /* Pods-PreCommitHooksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreCommitHooksTests.release.xcconfig"; sourceTree = "<group>"; };
+		701EAEC07AEF0010C392AED91137E959 /* Pods-PreCommitHooksTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PreCommitHooksTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		85CB39E880EA1EBB53E70A552EB478CE /* Pods-PreCommitHooks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreCommitHooks.debug.xcconfig"; sourceTree = "<group>"; };
+		9C743802FD5F1C6169A9CF8CBAC5E022 /* Pods-PreCommitHooksTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PreCommitHooksTests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9AE0E5224579B2A730C2435655705EB /* Pods-PreCommitHooks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PreCommitHooks-dummy.m"; sourceTree = "<group>"; };
+		ABD11A69BCAA7540813F1573D0C7D406 /* Pods-PreCommitHooks-PreCommitHooksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreCommitHooks-PreCommitHooksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B639F6D727B4279E4A5AFD2005D16FBD /* Pods-PreCommitHooks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreCommitHooks-Info.plist"; sourceTree = "<group>"; };
+		B6F877E2F64F0DD95328A8CEE66986E2 /* Pods-PreCommitHooks-PreCommitHooksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreCommitHooks-PreCommitHooksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B71DAC53FCBECF6790AC020D1BF5A7E5 /* Pods-PreCommitHooksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreCommitHooksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE39412FC8339548D4971FA68AC1CAEB /* Pods-PreCommitHooks-PreCommitHooksUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreCommitHooks-PreCommitHooksUITests-Info.plist"; sourceTree = "<group>"; };
+		BFF2B16D58135148D1393DA35C8EFB6D /* Pods-PreCommitHooks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreCommitHooks.release.xcconfig"; sourceTree = "<group>"; };
+		C1FDBA13D091AEDB0BA1F25DD2AE7097 /* Pods-PreCommitHooksTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PreCommitHooksTests-dummy.m"; sourceTree = "<group>"; };
+		D8B307BC7CF83968B9D0723FE9EE25F1 /* Pods-PreCommitHooks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PreCommitHooks-umbrella.h"; sourceTree = "<group>"; };
+		DF62280F8E0EFCB9D4CE82A4A6F90B66 /* Pods-PreCommitHooksTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PreCommitHooksTests-umbrella.h"; sourceTree = "<group>"; };
+		E8DC023D57F3814B0A2F250ACEA3AB9E /* Pods-PreCommitHooks-PreCommitHooksUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PreCommitHooks-PreCommitHooksUITests"; path = Pods_PreCommitHooks_PreCommitHooksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1526F04ED4D3670554D658A56C576F /* Pods-PreCommitHooks-PreCommitHooksUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PreCommitHooks-PreCommitHooksUITests-umbrella.h"; sourceTree = "<group>"; };
+		EFB15AA0A0BF834C0F32ABFDFD850B25 /* Pods-PreCommitHooks-PreCommitHooksUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PreCommitHooks-PreCommitHooksUITests-dummy.m"; sourceTree = "<group>"; };
+		F0AEDB8F853A4D6121D36541C02EB1E6 /* Pods-PreCommitHooks-PreCommitHooksUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PreCommitHooks-PreCommitHooksUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F44FFE3AFBCC544AFA0A7B2B9EB3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC1C732AF378C8199FB8D18B3636A2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FFD80250F5B62314AF3C8DD14F2D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783F2450116B45BCCA5353A6349016CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5BEA8DB12ECC2DDC4CA37623AB9B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D809E662130B4FC35277CE347D6F58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		155EAFBE8E98022DA31852B6D05D46B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AE64455BB405FE44C0D0B7BF18084F9 /* Pods-PreCommitHooks */,
+				E8DC023D57F3814B0A2F250ACEA3AB9E /* Pods-PreCommitHooks-PreCommitHooksUITests */,
+				147833A0E8188C7395D01490DA32A908 /* Pods-PreCommitHooksTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A249000DCBE12982333FBDFF3EEC28F /* Pods-PreCommitHooks */ = {
+			isa = PBXGroup;
+			children = (
+				3B841FFAB2A9FD3781CD3353E62CBB70 /* Pods-PreCommitHooks.modulemap */,
+				4D70D00203B07248E5DA7012F904ED25 /* Pods-PreCommitHooks-acknowledgements.markdown */,
+				4780EFA54141DBE6063FD3CDB2245529 /* Pods-PreCommitHooks-acknowledgements.plist */,
+				A9AE0E5224579B2A730C2435655705EB /* Pods-PreCommitHooks-dummy.m */,
+				B639F6D727B4279E4A5AFD2005D16FBD /* Pods-PreCommitHooks-Info.plist */,
+				D8B307BC7CF83968B9D0723FE9EE25F1 /* Pods-PreCommitHooks-umbrella.h */,
+				85CB39E880EA1EBB53E70A552EB478CE /* Pods-PreCommitHooks.debug.xcconfig */,
+				BFF2B16D58135148D1393DA35C8EFB6D /* Pods-PreCommitHooks.release.xcconfig */,
+			);
+			name = "Pods-PreCommitHooks";
+			path = "Target Support Files/Pods-PreCommitHooks";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		793D32284FE0164176D0C07D8971D8F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A249000DCBE12982333FBDFF3EEC28F /* Pods-PreCommitHooks */,
+				C161CFA5E71859EA0A9F4AB449EC7B1B /* Pods-PreCommitHooks-PreCommitHooksUITests */,
+				CD657C2C6760738F852E84C4E7C6BB09 /* Pods-PreCommitHooksTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C161CFA5E71859EA0A9F4AB449EC7B1B /* Pods-PreCommitHooks-PreCommitHooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0AEDB8F853A4D6121D36541C02EB1E6 /* Pods-PreCommitHooks-PreCommitHooksUITests.modulemap */,
+				0CED5B3A4E4085E61134F7BEC3B7EA9F /* Pods-PreCommitHooks-PreCommitHooksUITests-acknowledgements.markdown */,
+				690DAC35E57F8FA4A61903A5ED202925 /* Pods-PreCommitHooks-PreCommitHooksUITests-acknowledgements.plist */,
+				EFB15AA0A0BF834C0F32ABFDFD850B25 /* Pods-PreCommitHooks-PreCommitHooksUITests-dummy.m */,
+				BE39412FC8339548D4971FA68AC1CAEB /* Pods-PreCommitHooks-PreCommitHooksUITests-Info.plist */,
+				ED1526F04ED4D3670554D658A56C576F /* Pods-PreCommitHooks-PreCommitHooksUITests-umbrella.h */,
+				ABD11A69BCAA7540813F1573D0C7D406 /* Pods-PreCommitHooks-PreCommitHooksUITests.debug.xcconfig */,
+				B6F877E2F64F0DD95328A8CEE66986E2 /* Pods-PreCommitHooks-PreCommitHooksUITests.release.xcconfig */,
+			);
+			name = "Pods-PreCommitHooks-PreCommitHooksUITests";
+			path = "Target Support Files/Pods-PreCommitHooks-PreCommitHooksUITests";
+			sourceTree = "<group>";
+		};
+		CD657C2C6760738F852E84C4E7C6BB09 /* Pods-PreCommitHooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C743802FD5F1C6169A9CF8CBAC5E022 /* Pods-PreCommitHooksTests.modulemap */,
+				701EAEC07AEF0010C392AED91137E959 /* Pods-PreCommitHooksTests-acknowledgements.markdown */,
+				581AD4153E1ACE77AE7D2B986CAE7662 /* Pods-PreCommitHooksTests-acknowledgements.plist */,
+				C1FDBA13D091AEDB0BA1F25DD2AE7097 /* Pods-PreCommitHooksTests-dummy.m */,
+				148ED3D9A10EE5FE00DA9B7AC0C3711F /* Pods-PreCommitHooksTests-Info.plist */,
+				DF62280F8E0EFCB9D4CE82A4A6F90B66 /* Pods-PreCommitHooksTests-umbrella.h */,
+				B71DAC53FCBECF6790AC020D1BF5A7E5 /* Pods-PreCommitHooksTests.debug.xcconfig */,
+				6DF6D20F336F4594EA6780AE4834065F /* Pods-PreCommitHooksTests.release.xcconfig */,
+			);
+			name = "Pods-PreCommitHooksTests";
+			path = "Target Support Files/Pods-PreCommitHooksTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				155EAFBE8E98022DA31852B6D05D46B2 /* Products */,
+				793D32284FE0164176D0C07D8971D8F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2ACE231E5C70C844D94306E92A73CBC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C36FFA67FA40203952231358E110EB /* Pods-PreCommitHooks-PreCommitHooksUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8398B42D3D2BA7FA61E16C42B2B386D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1EA7D91BEDD4DB813E7312DAB8F333 /* Pods-PreCommitHooksTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F381188ACCE45BE996C3C2C3CB1BFCBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47012D7B885E825FB298AC8F533EB2DB /* Pods-PreCommitHooks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29B32118B7BED8B45CA72D1CA5CA95CB /* Pods-PreCommitHooks-PreCommitHooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526C995224FC7AF6E892104744F326A4 /* Build configuration list for PBXNativeTarget "Pods-PreCommitHooks-PreCommitHooksUITests" */;
+			buildPhases = (
+				2ACE231E5C70C844D94306E92A73CBC3 /* Headers */,
+				74CF5B5EC5762B198360404C00FAC9BD /* Sources */,
+				66FFD80250F5B62314AF3C8DD14F2D4F /* Frameworks */,
+				4FA5A2CBD1EE79E1E4011925F559EE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FCCACA97138E870F725B85983106B88 /* PBXTargetDependency */,
+			);
+			name = "Pods-PreCommitHooks-PreCommitHooksUITests";
+			productName = Pods_PreCommitHooks_PreCommitHooksUITests;
+			productReference = E8DC023D57F3814B0A2F250ACEA3AB9E /* Pods-PreCommitHooks-PreCommitHooksUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F3219093BDA969A7C5911550E93A3C9 /* Pods-PreCommitHooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E250C5412CBED435E0B8D23E107067 /* Build configuration list for PBXNativeTarget "Pods-PreCommitHooks" */;
+			buildPhases = (
+				F381188ACCE45BE996C3C2C3CB1BFCBD /* Headers */,
+				5931D588D0D353E3EBDB0BE1F1A635DA /* Sources */,
+				57F44FFE3AFBCC544AFA0A7B2B9EB3BB /* Frameworks */,
+				757519EFC24934AB7BE74E0BE912ABBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA446D927EA0ED393E65307057005F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-PreCommitHooks";
+			productName = Pods_PreCommitHooks;
+			productReference = 6AE64455BB405FE44C0D0B7BF18084F9 /* Pods-PreCommitHooks */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8DCE60E62DFA077DD8A09C7B88E34A1 /* Pods-PreCommitHooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943B7BF38B3C25C399BAA82D98387347 /* Build configuration list for PBXNativeTarget "Pods-PreCommitHooksTests" */;
+			buildPhases = (
+				8398B42D3D2BA7FA61E16C42B2B386D7 /* Headers */,
+				F0C0E87B71BDD4EFAE7D99324AB2A67E /* Sources */,
+				EA5BEA8DB12ECC2DDC4CA37623AB9B52 /* Frameworks */,
+				B2F1B7BCFCB8F21BB70E5F748509136E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478BBEF400D5ACDACF02927420C4290D /* PBXTargetDependency */,
+			);
+			name = "Pods-PreCommitHooksTests";
+			productName = Pods_PreCommitHooksTests;
+			productReference = 147833A0E8188C7395D01490DA32A908 /* Pods-PreCommitHooksTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 155EAFBE8E98022DA31852B6D05D46B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F3219093BDA969A7C5911550E93A3C9 /* Pods-PreCommitHooks */,
+				29B32118B7BED8B45CA72D1CA5CA95CB /* Pods-PreCommitHooks-PreCommitHooksUITests */,
+				C8DCE60E62DFA077DD8A09C7B88E34A1 /* Pods-PreCommitHooksTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FA5A2CBD1EE79E1E4011925F559EE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757519EFC24934AB7BE74E0BE912ABBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F1B7BCFCB8F21BB70E5F748509136E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5931D588D0D353E3EBDB0BE1F1A635DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD1E16F9C49957083F7CE9A1BBA56EB /* Pods-PreCommitHooks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CF5B5EC5762B198360404C00FAC9BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBFB4034365399C11F04BCCC1120A70 /* Pods-PreCommitHooks-PreCommitHooksUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C0E87B71BDD4EFAE7D99324AB2A67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C732B2D7708FCFD299E09B7847FC47D /* Pods-PreCommitHooksTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BA446D927EA0ED393E65307057005F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 24A8627CF1979BAB4242A78BCE9256E6 /* PBXContainerItemProxy */;
+		};
+		478BBEF400D5ACDACF02927420C4290D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PreCommitHooks";
+			target = 4F3219093BDA969A7C5911550E93A3C9 /* Pods-PreCommitHooks */;
+			targetProxy = A10AD3B2699598F2B7D991D91F6425F0 /* PBXContainerItemProxy */;
+		};
+		4FCCACA97138E870F725B85983106B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 2BE1CAD544A5507F4C8701E4A356EBDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05661D8701E67EA0BD2BE5593539DFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD11A69BCAA7540813F1573D0C7D406 /* Pods-PreCommitHooks-PreCommitHooksUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PreCommitHooks-PreCommitHooksUITests/Pods-PreCommitHooks-PreCommitHooksUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreCommitHooks-PreCommitHooksUITests/Pods-PreCommitHooks-PreCommitHooksUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58274AA2F8E3E158CEECECA26CC845CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF2B16D58135148D1393DA35C8EFB6D /* Pods-PreCommitHooks.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PreCommitHooks/Pods-PreCommitHooks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreCommitHooks/Pods-PreCommitHooks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76BB2FEB1545F2B2BA71C9224EB6856B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71DAC53FCBECF6790AC020D1BF5A7E5 /* Pods-PreCommitHooksTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PreCommitHooksTests/Pods-PreCommitHooksTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreCommitHooksTests/Pods-PreCommitHooksTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8178241147206943FBBE844DF1D7E6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF6D20F336F4594EA6780AE4834065F /* Pods-PreCommitHooksTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PreCommitHooksTests/Pods-PreCommitHooksTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreCommitHooksTests/Pods-PreCommitHooksTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6EDC2156531B20C03E8DB1E6041EB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CB39E880EA1EBB53E70A552EB478CE /* Pods-PreCommitHooks.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PreCommitHooks/Pods-PreCommitHooks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreCommitHooks/Pods-PreCommitHooks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE734BA6AD24ABC3609D895FFDE52545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F877E2F64F0DD95328A8CEE66986E2 /* Pods-PreCommitHooks-PreCommitHooksUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PreCommitHooks-PreCommitHooksUITests/Pods-PreCommitHooks-PreCommitHooksUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreCommitHooks-PreCommitHooksUITests/Pods-PreCommitHooks-PreCommitHooksUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526C995224FC7AF6E892104744F326A4 /* Build configuration list for PBXNativeTarget "Pods-PreCommitHooks-PreCommitHooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05661D8701E67EA0BD2BE5593539DFBA /* Debug */,
+				CE734BA6AD24ABC3609D895FFDE52545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E250C5412CBED435E0B8D23E107067 /* Build configuration list for PBXNativeTarget "Pods-PreCommitHooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EDC2156531B20C03E8DB1E6041EB74 /* Debug */,
+				58274AA2F8E3E158CEECECA26CC845CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943B7BF38B3C25C399BAA82D98387347 /* Build configuration list for PBXNativeTarget "Pods-PreCommitHooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BB2FEB1545F2B2BA71C9224EB6856B /* Debug */,
+				8178241147206943FBBE844DF1D7E6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
